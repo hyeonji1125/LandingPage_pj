@@ -1,11 +1,31 @@
-import './House_Introduce.css'
+import { motion } from "framer-motion";
+import './House_Introduce.css';
 
 const House_Introduce = () => {
 	return(
 		<div>
 			<div className='house-container'>
+			<motion.div
+      initial={{ opacity: 0, y: 30 }}
+      whileInView={{
+        opacity: 1,
+        y: 0,
+      transition: { delay: 0.3,
+				duration: 1},
+      }}
+    >
 				<div className='house-first-text'>자연 속 나의 집을 소개합니다!</div>
+		</motion.div>
 				<div className='img-house-container'>
+				<motion.div
+      initial={{ opacity: 0, y: 30 }}
+      whileInView={{
+        opacity: 1,
+        y: 0,
+      transition: { delay: 0.5,
+				duration: 1},
+      }}
+			>
 					<div className= 'left-house-container'> 
 						<img className='house-main-img' src='../../images/desktop2_img1.jpg'></img>
 						<div className='camping-text'>
@@ -19,6 +39,16 @@ const House_Introduce = () => {
 							<img className='house-mini-img' src='../../images/desktop2_mini_img4.jpg'></img>
 						</div>
 					</div>
+			</motion.div>
+			<motion.div
+      initial={{ opacity: 0, y: 30 }}
+      whileInView={{
+        opacity: 1,
+        y: 0,
+      transition: { delay: 0.7,
+				duration: 1},
+      }}
+			>
 					<div className= 'right-house-container'>
 						<div className='house-box'>
 							<img className='house-img' src='../../images/desktop2_img2.jpg'></img>
@@ -45,6 +75,7 @@ const House_Introduce = () => {
 							</div>
 						</div>
 					</div>
+			</motion.div>
 				</div>
 			</div>
 		</div>

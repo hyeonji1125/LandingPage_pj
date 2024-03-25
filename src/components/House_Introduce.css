@@ -27,6 +27,7 @@
 }
 .camping-text{
 	text-align: center;
+	font-size: 18px;
 	background-color: #EAEBE5;
 	color: #212529;
 	padding: 10px;
@@ -44,6 +45,7 @@
 	height: 419px;
 }
 
+
 .house-mini-img{
 	width: 80px;
 	height: 80px;
@@ -51,6 +53,11 @@
 	border: 0.3px solid gray;
 	margin-right: 5px;
 	margin-top: 20px;
+	cursor: pointer;
+}
+
+.house-mini-img:hover{
+	border: 3px solid #35C5F0;
 }
 
 .house-img{
