@@ -1,0 +1,59 @@
+.house-container{
+	width: 100%;
+	/* height: 100vh; */
+	max-width: 1256px;
+	padding: 10px 60px;
+	margin: 100px auto; 
+}
+
+.house-first-text{
+	/* font-family: 'Pretendard-SemiBold'; */
+	color: #212529;
+	font-size: 40px;
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+.img-house-container{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.left-house-container{
+	display: flex;
+	flex-direction: column;
+	row-gap: 5px;
+
+}
+.camping-text{
+	text-align: center;
+	background-color: #EAEBE5;
+	color: #212529;
+	padding: 10px;
+	font-family: 'Pretendard-SemiBold';
+}
+.right-house-container{
+	display: grid;
+	grid-gap: 20px;
+	grid-template-columns: repeat(2,1fr);
+	grid-template-rows: repeat(2,1fr);	
+}
+
+.house-main-img{
+	width: 516px;
+	height: 419px;
+}
+
+.house-mini-img{
+	width: 80px;
+	height: 80px;
+	border-radius: 20px;
+	border: 0.3px solid gray;
+	margin-right: 5px;
+	margin-top: 20px;
+}
+
+.house-img{
+	width: 287;
+	height: 233px;
+}

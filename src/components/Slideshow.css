@@ -1,0 +1,23 @@
+.slideshow {
+  display: flex;
+  overflow: hidden;
+}
+
+.slide-container {
+  display: flex;
+  animation: slide 15s linear infinite; /* 15초 동안 slide 애니메이션 반복 */
+}
+
+.slide {
+  width: 100%;
+  flex-shrink: 0;
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-400%); /* 이미지가 왼쪽으로 이동 */
+  }
+}

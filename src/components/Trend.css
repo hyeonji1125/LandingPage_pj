@@ -1,0 +1,18 @@
+.trend-container{
+	width: 100%;
+	max-width: 1256px;
+	padding: 10px 60px;
+	margin: 30px auto; 
+}
+
+.trend-text{
+	color: #212529;
+	font-size: 40px;
+	margin-bottom: 100px;
+	text-align: center;
+}
+
+.trend-img{
+	width: 326px;
+	height: 342px;
+}

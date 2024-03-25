@@ -1,0 +1,30 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.header{
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 999;
+	background-color: #ffffff;
+	color: #000000;
+	border: 1px solid #EAEDEF;
+}
+
+.header-content{
+	width: 100%;
+	max-width: 1256px;
+	height: 80px;
+	padding: 10px 60px;
+	margin: 0 auto; 
+	display: flex;
+	align-items: center;
+}
+
+.nav_log{
+	width: 74px;
+	height: 30px;
+}
